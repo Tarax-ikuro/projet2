@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="/home/arias/Bureau/Projet RBNB">
+  <link rel="stylesheet" href="/home/arias/Bureau/Projet RBNB"> 
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
 
-<body class="" id="testt">
+<body>
 
 
   <!-- Bandeau du haut -->
@@ -41,110 +41,109 @@
       <!-- Menu  de recherche  -->
       <div id="recherche" class="recherche">
 
-        <div id="recherche__element" class="recherche__element">
-          <h2>Adresse</h2>
-          <p>Où allez vous ?</p>
+      <div id="recherche__element" class="recherche__element">
+        <h2>Adresse</h2>
+        <p>Où allez vous ?</p>
+      </div>
+      <div id="recherche__element" class="recherche__element">
+        <h2>Arrivée</h2>
+        <p>Quand ?</p>
+      </div>
+      <div id="recherche__element" class="recherche__element">
+        <h2>Départ</h2>
+        <p>Quand ?</p>
+      </div>
+      <div id="recherche__element" class="recherche__element">
+        <div class="recherche__element__last" id="recherche__element__last">
+          <h2>Voyageurs</h2>
+          <p>Qui ?</p>
         </div>
-        <div id="recherche__element" class="recherche__element">
-          <h2>Arrivée</h2>
-          <p>Quand ?</p>
-        </div>
-        <div id="recherche__element" class="recherche__element">
-          <h2>Départ</h2>
-          <p>Quand ?</p>
-        </div>
-        <div id="recherche__element" class="recherche__element">
-          <div class="recherche__element__last" id="recherche__element__last">
-            <h2>Voyageurs</h2>
-            <p>Qui ?</p>
-          </div>
+       
+        <button id="recherche__element__buttonSearch" class="recherche__element__buttonSearch">
+          <img class="loupe" id="loupe" src="image/loupe.png" alt="loupe.png">
+        </button>
+      </div>
+    </div>
+  
 
-          <button id="recherche__element__buttonSearch" class="recherche__element__buttonSearch">
-            <img class="loupe" id="loupe" src="image/loupe.png" alt="loupe.png">
-          </button>
-        </div>
+  <!--fin du header-->
+  <main id="main" class="">
+    <section class="section1">
+      <div id="firstimg" class="firstimg">
+        <p id="firstimg__titreImg" class="firstimg__titreImg">Vous ne savez pas où partir?</p><br>
+        <p id="firstimg__titreImg" class="firstimg__titreImg"> Parfait.</p> <br>
+        <button id="firstimg__buttonImgFirst" class="firstimg__buttonImgFirst">Je suis flexible</button>
+      <img class="tenté" id="tente" src="image/tente.jpg" alt="tenté.png" style="width:100%">
+     
+    </div>
+</header>
+
+      <div id="secondimg" class="secondimg">
+        <p id="secondimg__texteSecondimg" class="secondImg__texteSecondImg">Découvrez les</p><br>
+        <h3>Cartes cadeaux Airbnb</h3>
+        <button id="buttonSecondImg" class="secondImg__buttonSecondImg"> Acheter Maintenant</button>
+     <img class="carteuu" id="classeuu" src="image/cartes.png" alt="cartes.png" style="width:100%">
       </div>
 
+    </section>
 
-      <!--fin du header-->
-      <main id="main" class="">
-        <section class="section1">
-          <div id="firstimg" class="firstimg">
-            <p id="firstimg__titreImg" class="firstimg__titreImg">Vous ne savez pas où partir?</p><br>
-            <p id="firstimg__titreImg" class="firstimg__titreImg"> Parfait.</p> <br>
-            <button id="firstimg__buttonImgFirst" class="firstimg__buttonImgFirst">Je suis flexible</button>
-            <img class="tenté" id="tente" src="image/tente.jpg" alt="tenté.png" style="width:100%">
-
-          </div>
-  </header>
-  <main class="testt">
-    <div id="secondimg" class="secondimg">
-      <p id="secondimg__texteSecondimg" class="secondImg__texteSecondImg">Découvrez les</p><br>
-      <h3>Cartes cadeaux Airbnb</h3>
-      <button id="buttonSecondImg" class="secondImg__buttonSecondImg"> Acheter Maintenant</button>
-      <img class="carteuu" id="classeuu" src="image/cartes.png" alt="cartes.png" style="width:100%">
-    </div>
-
-
-
-
+ 
 
 
 
     <!-- Bloc 3 -->
-    <section>
-      <div id="cards" class="cards">
+    <div id="cards" class="cards">
 
-        <div class="cards__bloc rose cards">
-          <img class="cards__bloc__ville" src="image/paris.jpg" alt="">
-          <div class="cards__bloc__bas">
-            <h5 class="">Paris</h5>
-            <p>à 2 kilomètres</p>
-          </div>
+      <div class="cards__bloc rose cards">
+        <img class="cards__bloc__ville" src="image/paris.jpg" alt="">
+        <div class="cards__bloc__bas">
+          <h5 class="">Paris</h5>
+          <p>à 2 kilomètres</p>
         </div>
+      </div>
 
-        <div class="cards__bloc violet">
-          <img class="cards__bloc__ville" src="image/nantes.jpg" alt="">
-          <div class="cards__bloc__bas">
-            <h5 class="">Nantes</h5>
-            <p>à 342 kilomètres</p>
-          </div>
+      <div class="cards__bloc violet">
+        <img class="cards__bloc__ville" src="image/nantes.jpg" alt="">
+        <div class="cards__bloc__bas">
+          <h5 class="">Nantes</h5>
+          <p>à 342 kilomètres</p>
         </div>
+      </div>
 
-        <div class="cards__bloc vert">
-          <img class="cards__bloc__ville" src="image/sables.jpg" alt="">
-          <div class="cards__bloc__bas">
-            <h5 class="">Les Sables d'Olonnes</h5>
-            <p>à 406 kilomètres</p>
-          </div>
+      <div class="cards__bloc vert">
+        <img class="cards__bloc__ville" src="image/sables.jpg" alt="">
+        <div class="cards__bloc__bas">
+          <h5 class="">Les Sables d'Olonnes</h5>
+          <p>à 406 kilomètres</p>
         </div>
+      </div>
 
-        <div class="cards__bloc bleu">
-          <img class="cards__bloc__ville" src="image/lemans.jpg" alt="">
-          <div class="cards__bloc__bas">
-            <h5 class="">Le Mans</h5>
-            <p>à 184 kilomètres</p>
-          </div>
+      <div class="cards__bloc bleu">
+        <img class="cards__bloc__ville" src="image/lemans.jpg" alt="">
+        <div class="cards__bloc__bas">
+          <h5 class="">Le Mans</h5>
+          <p>à 184 kilomètres</p>
         </div>
+      </div>
 
 
 
 
-    </section>
+      </section>
 
-    <div>
-      <h2>Découvrez les expériences Airbnb </h2>
-    </div>
-    <div>
-      <p>des expériences à vivre pendant votre voyage </p> <br>
-      <a href="URL">Expériences</a>
-      <!--img class="rocher" src="image/canyon.jpg" alt=""-->
-    </div>
-    <div>
-      <p>Des Expériences à vivre chez vous </p>
-      <a href="URL">Expériences en ligne</a>
-      <!--img class="vac" src="image/vacances.jpg" alt=""-->
-    </div>
+      <div>
+        <h2>Découvrez les expériences Airbnb </h2>
+      </div>
+      <div>
+        <p>des expériences à vivre pendant votre voyage </p> <br>
+        <a href="URL">Expériences</a>
+    <!--img class="rocher" src="image/canyon.jpg" alt=""-->
+      </div>
+      <div>
+        <p>Des Expériences à vivre chez vous </p>
+        <a href="URL">Expériences en ligne</a>
+     <!--img class="vac" src="image/vacances.jpg" alt=""-->
+      </div>
 
     </div>
     <h3>Des idées pour vos prochaines escapades</h3>
@@ -217,7 +216,7 @@
         u site</a></li>
         <li><a href="">Infos sur l'entreprise</a></li>
         </ul>
-
+        
         <a href="">Français (FR)</a>
         <a href="">€ EUR</a>
         <img src="image/facebook-app-symbol.png" alt="facebbok">
